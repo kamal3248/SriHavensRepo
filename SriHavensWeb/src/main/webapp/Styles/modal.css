@@ -1,0 +1,13 @@
+.modal-close{
+	background: transparent;
+	border: none;
+	float:right;
+	font-weight: bold;
+	opacity: 0.7;
+}
+.modal .show{
+	display:block
+}
+.modal-title, .modal-content{
+	width:100%;
+}

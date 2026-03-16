@@ -1,0 +1,45 @@
+a{
+	text-decoration:none;
+}
+.rounded-t-5 {
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+
+@media ( min-width : 992px) {
+	.rounded-tr-lg-0 {
+		border-top-right-radius: 0;
+	}
+	.rounded-bl-lg-5 {
+		border-bottom-left-radius: 0.5rem;
+	}
+}
+.form-control{
+	border:1px solid !important;
+}
+.pad-right-10{
+	padding-right: 10px;
+}
+.password-toggle-icon{
+	position: absolute;
+    top: 61%;
+    right: 70px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle-icon i {
+  font-size: 18px;
+  line-height: 1;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.password-toggle-icon i:hover {
+  color: #000;
+}
+
+.text-lg-start {
+	text-align: left !important;
+}
